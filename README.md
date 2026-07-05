@@ -29,11 +29,11 @@ The solution operates on a strict **Multi-Modal Safety State Machine** addressin
                                       │
    ┌────────────────────────==========┼============────────────────────────┐
    ▼                                  ▼                                    ▼
-[ Pillar 1: Structural ]    [ Pillar 2: Process Time ]            [ Pillar 3: Proximity ]
-Object Detection checks     Temporal analytics watch               YOLOv8 Spatial Geofence
-if mandatory Ladle           and log Argon Degassing                locks physical crane if
-Lids are mounted.            timelines to halt rush.                ANY limb enters Red Zone.
+1. **Pillar 1: Structural Non-Compliance Detection:** Uses visual object confirmation to verify that mandatory ladle thermal safety covers are securely attached before transport.
+2. **Pillar 2: Process-Skipping Watchdog:** Employs temporal state tracking to act as an un-bypassable countdown clock, ensuring liquid steel undergoes its full mandatory Argon Rinsing duration to vent entrapped gases.
+3. **Pillar 3: Ultra-Sensitive Proximity Protection:** Uses a pre-trained `YOLOv8-Nano` model combined with geometric intersection algorithms (`cv2.pointPolygonTest`). Rather than waiting for a worker's full body to enter the danger zone, the system calculates a multi-vertex box model—**tripping a hard machine lockout the instant a single limb crosses the hazard threshold.**
 
+---
 ## 🚀 Quick Start & Installation
 
 ### 1. Prerequisites
